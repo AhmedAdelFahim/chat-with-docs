@@ -1,0 +1,438 @@
+1. Introduction
+1.1. E-Invoicing in Kingdom of Saudi Arabia (linking E-Invoicing Regulation 
+with the VAT Legislations)
+Electronic Invoicing is a procedure that aims to convert the issuing of paper invoices as 
+well as credit and debit notes into an electronic process that allows the exchange and 
+processing of invoices, credit and debit notes in a structured electronic format between 
+the buyer and seller.
+The E-Invoicing Regulation shall be read together with the Unified VAT Agreement (the 
+Agreement), the VAT Law published on 4/11/1438H and its amendments (the VAT Law), the 
+VAT Implementing Regulation (VAT Implementing Regulation) and the resolutions issued 
+pursuant to the Electronic Invoicing Regulation, including the resolution on the Controls, 
+Requirements, Technical Specifications and Procedural Rules (herein after referred to as 
+“E-Invoicing Resolution”) required for implementing Electronic Invoicing in the Kingdom 
+of Saudi Arabia.
+
+1.2. Benefits of E-Invoicing
+Electronic Invoicing has several benefits for both persons subject to E-Invoicing 
+Regulations and national economy, these benefits include but are not limited to:
+A. Reduces cost of invoicing process
+B. Prevents human error in invoicing process
+C. Enhances digitalization in supply chain
+D. Improves accounting and book keeping 
+E. Enhances business ecosystem with enriched fair competition and consumer protection 
+through provision of a unified process for validating and auditing invoices
+F. Reduces hidden economy transactions
+G. Reduces commercial concealment by increasing requirements related to invoice 
+tracking and data retention
+H. Enriches the consumer experience and digitizing the consumer- supplier relationship
+I. Increases compliance with tax obligations through enhanced verification of business 
+transactions
+
+1.3. E-Invoicing phases
+Electronic Invoicing is composed of two main phases, as follows:
+1. Phase 1 (Generation Phase): Generation of Electronic Invoices Phase, where Persons 
+subject to the E-Invoicing Regulations must generate Electronic Invoices and associated 
+Electronic Notes in accordance with the clauses set forth under the Resolution on the 
+E-INVOICING BYLAW and The Controls, Requirements, Technical Specifications And 
+Procedural Rules For Implementing The Provisions Of The E-Invoicing Regulation and any 
+subsequent resolutions. This phase has been implemented effectively by 4th of December 
+2021.
+2. Phase 2 (Integration Phase): Integration Phase, where Persons subject to the E-Invoicing 
+Regulations must integrate their systems with the Authority’s system (FATOORA) in 
+accordance with the clauses set forth under the Resolution on the Controls, Requirements, 
+Technical Specifications and Procedural Rules and any subsequent resolutions. The 
+second phase (integration phase) shall be implemented starting from 1st of January 2023 
+onwards. The second phase (integration phase) will be implemented in groups and will be 
+mandated to Persons subject to the E-Invoicing Regulations based on the criteria set by the 
+Authority. Notifications to the target groups will be initiated at least six months in advance
+
+1.4. The Authority
+The Zakat, Tax and Customs Authority, also referred to as “the Authority” herein, is the 
+authority in charge of the implementation and administration of VAT (which may be referred 
+to hereinafter as “the Tax”) or (“VAT”). In addition to the registration and deregistration 
+of taxable persons for VAT, the administration of VAT return filing and VAT refunds, and 
+undertaking audits and field visits, the Authority also has the power to levy penalties for 
+noncompliance and is mandated to implement the E-Invoicing framework in KSA, which 
+was enforced through the E-Invoicing Regulations issued by the Board of Directors of the 
+Authority on December 4, 2020.
+1.5. Scope of this Guideline
+This Guideline addresses all Persons covered by the scope of application of Article (3) of 
+the E-Invoicing Regulation which covers:
+● Taxable person that is a resident in KSA. 
+● The customer or any third party who issues a Tax Invoice on behalf of the taxable 
+person that is a resident in KSA according to the VAT Implementing Regulation.
+This Guideline aims to provide more information on certain industries, transactions or 
+scenarios and provide more detailed information on how E-Invoicing will be applicable to 
+such industries, transactions or scenarios. 
+This Guideline contains and references several examples of electronic invoices against the 
+various invoices to be issued and the types of transactions. The complete list of examples 
+and the human readable format (PDF/A-3 with embedded XML) of the invoice and the XML 
+are included on the Authority’s Website. Please note that the Cryptographic Stamp value, 
+the QR Code value, and the Invoice Hash value in the XML examples are sample values. 
+This Guideline aims to simplify and clarify the end-to-end journey of the Taxable persons 
+through electronic invoicing, their obligations, and the overall solution requirements to 
+comply with electronic invoicing regulations.
+This Guideline does not contain explanations of technical implementation details directed 
+at invoicing solution vendors.
+
+2. Clarifications of the main terms used
+This section provides clarifications of the definitions used under the Resolution, provides 
+some additional clarifications that will be helpful to better understand the terms used under 
+these guidelines, and clarifies the mechanism for applying the provisions related to the 
+Resolution.
+2.1. Electronic Invoicing:
+It is a mechanism that aims to transform the process of issuing paper invoices and notes 
+into an electronic process that allows the exchange of invoices and debit and credit notes 
+and their processing in a structured electronic format organized between the seller and the 
+buyer.
+2.2. Tax Invoice:
+A Tax Invoice as per Article 53(1) of VAT Implementing Regulations that is generated and 
+stored in a structured electronic format through electronic means. Standard Tax Invoices 
+are generally issued in Business to Business (B2B) transactions. A paper invoice that is 
+converted into an electronic format through copying, scanning, or any other method is not 
+considered an electronic invoice.
+2.3. Simplified Tax Invoice:
+A Simplified Tax Invoice as per Article 53(7) of VAT Implementing Regulations that is 
+generated and stored in a structured electronic format generally issued for a B2C (business 
+to consumer) transaction and does not generally include the buyer’s details1
+. Optionally, 
+Simplified Tax Invoices may also be issued for business-to-business transactions in case 
+the value of supply is below SAR 1,000
+
+2.4. Electronic Note:
+Debit and credit notes that must be issued in accordance with the Article 54 of VAT 
+Implementing Regulation, and which are generated and stored in a structured electronic 
+format through electronic means. Paper notes that are converted into electronic format 
+through copying, scanning, or any other method, are not considered electronic notes for 
+the purposes of this Regulation.
+2.5. Debit Note:
+Debit notes are issued by the sellers in order to issue a correction in value to buyers. Debit 
+notes are used for increasing the value of the original invoice or the VAT amount. Debit 
+notes follow the same format as the invoice for which they have been issued.
+2.6. Credit Note:
+Credit notes are issued by the sellers in order to refund buyers and are used to correct 
+invoices information if generated with an error. Credit notes follow the same format as the 
+invoice they have been issued upon. 
+2.7. E-Invoice Solution:
+The compliant solution which is used for generating Electronic Invoices and Electronic 
+Notes. Such a solution must fulfil the specifications and requirements set forth under the 
+resolution on the Controls, Requirements, Technical Specifications and Procedural Rules 
+for Implementing the Provisions of the E-Invoicing Regulation. An E-Invoice Solution may 
+contain one or more Units.
+
+2.8. FATOORA Portal:
+ZATCA’s portal through which Tax Invoice, Simplified Tax Invoice, and electronic credit/
+debit note data is received, which are generated by the E-Invoice Solutions used by 
+Persons subject to the E-Invoicing Regulations. This portal aims to onboard the user’s EGS 
+Unit through generating cryptographic stamp identifier or renewing the existing one or 
+revoking it. In addition, the user can view the list of onboarded solutions and devices.
+2.9. Cryptographic Stamp:
+An electronic stamp which is created via cryptographic algorithms to ensure authenticity 
+of origin and integrity of content of the data for the Electronic Invoices and its associated 
+Electronic Notes, and to ensure the identity verification of the issuer for the Invoices and 
+Notes for the purpose of ensuring compliance with the provisions and controls of the VAT 
+Law and its Implementing Regulation regarding the generation of Electronic Invoices and 
+Notes. For technical details, please refer to the Security Features Implementation Standard.
+2.10. Cryptographic Stamp Identifier (CSID):
+A Cryptographic Stamp Identifier (CSID) is a unique identifier that links the E-Invoice 
+Solution Unit and a trusted third party able to confirm the identity of the Person subject 
+to the E-Invoicing Regulation and uniquely identify their unit. For technical details, please 
+refer to the Security Features Implementation Standard.
+2.11. UUID:
+A 128-bit number, generated by an algorithm chosen to make it unlikely that the same 
+identifier will be generated by anyone else in the known universe using the same algorithm. 
+The UUID is generated by a compliant E-Invoice Solution and stored inside the XML invoice. 
+Note: In Windows OS UUIDs are referred to by the term GUID
+
+2.12. QR Code:
+A type of matrix barcode, with a pattern of black and white squares that is machine 
+readable by a QR code scanner or smart device camera in order to enable basic validation of 
+Electronic Invoices and Electronic Notes. For technical details, please refer to the Security 
+Features Implementation Standard.
+2.13. Hash:
+A hash function is any function that can be used to map data of arbitrary size to fixed-size 
+values called hashes that takes up minimal space. A hash procedure is deterministic - 
+meaning that for a given input value it must always generate the same hash value. It is not 
+possible to derive the original data from a hash; hence, hashing is meant to verify that a 
+file or piece of data hasn’t been altered. For technical details, please refer to the Security 
+Features Implementation Standard.
+2.14. Invoice Reference Number:
+A unique and sequential number that identifies the issued invoice by the E-Invoice Solution, 
+according to article 53 of the VAT Implementing Regulations. The VAT Implementing 
+Regulations did not specify a specific format for the Invoice Reference Number, and the 
+reference numbers may be different, for example, a different sequential reference number 
+for each branch, provided that the Tax Invoice is clearly and distinctly defined and follows 
+a sequence
+
+2.15. Clearance:
+Clearance is the process where the Authority shall verify that the Electronic Tax Invoices 
+and their associated Electronic Notes transmitted to it (through integration) by the persons 
+subject to E-Invoicing Regulation, fulfil the controls and details specified in the E-Invoicing 
+Resolution, Annexes (1) and (2) of the Resolution, and the relevant technical documentation. 
+The Authority shall insert the Cryptographic Stamp only on the Invoices and Notes which 
+fulfil the aforementioned controls and details. Please note that the process of Clearance is 
+not applicable to Simplified Tax Invoices.
+2.16. Reporting of Simplified Tax Invoices and their associated notes:
+Reporting is the process of sharing of the Simplified Tax Invoices and their associated 
+Notes which are generated electronically - which include the Cryptographic Stamp as 
+specified in Clause (Fourth) of the E-Invoicing Resolution- with the Authority by the 
+persons subject to E-Invoicing Regulation. Persons subject to the E-Invoicing Regulation 
+will be required to transmit all Simplified Tax Invoices to the FATOORA Portal within (24) 
+hours from its issuance. 
+2.17. Human Readable Format:
+The human readable format of the invoice is a recognizable invoice that can be read and 
+understood by a human reader (including buyers and the Authority).
+2.18. The Authority’s Toolkit:
+The Authority toolkit is the testing toolkits provided by the Authority to allow Persons 
+subject to the E-Invoicing Regulation to verify that their solutions generate compliant 
+invoices and can be validated by the FATOORA Portal after integration. There are three 
+tools provided the sandbox, SDK and web-based validator, for more details please check 
+the sandbox webpage
+
+3. Scope of E-Invoicing
+3.1. Taxable Persons subject to E-Invoicing
+● All Taxable Persons subject to E-Invoicing Regulations are obliged to generate 
+E-Invoices for all their transactions for which Tax Invoices must be issued, in addition to 
+the electronic notes that must be issued in the cases stipulated in the VAT Law and its 
+implementing regulations
+● Taxable Persons who are subject to the E-Invoicing Regulation include:
+1. Taxable person that is a Resident in the Kingdom.
+2. The customer or any third party that issues a Tax Invoice on behalf of the taxable 
+person that is a Resident in the Kingdom according to Article 53 (3), on the 
+amendment of VAT Implementing Regulations which was approved by the Authority 
+in 2021/11/09 that implemented in Dec. 4th 2021 
+● Taxable Persons who are not Residents in KSA are not required to issue Electronic 
+Invoices or Electronic Notes for supplies or amounts received which are subject to tax 
+in KSA.
+3.2. Requirements to generate Electronic Invoices
+Electronic invoicing has not changed the requirements for issuing invoices, debit notes 
+or credit notes, and therefore, the issuance of invoices, debit notes or credit notes must 
+be adhered to in accordance with the provisions of the VAT Law and its implementing 
+regulations
+
+4. Types of E-Invoices
+4.1. Tax Invoice
+4.1.1. Tax Invoices for Phase 1 (Generation Phase)
+a. A Tax invoice is an invoice issued for most B2B and B2G transactions with fields defined 
+in Article 53 (5), VAT Implementing Regulations and Annex 2 of E Invoicing Resolution. 
+The fields required for Generation Phase and Integration Phase to be included within 
+the Tax Invoice are included in the Annex 2 of the E-Invoicing Resolution. 
+b. For Phase 1 (Generation Phase), the taxpayer must generate a Tax Invoice including 
+additional data fields prescribed in the Annex 2 of E-Invoicing Resolution in an electronic 
+format using a compliant E-Invoice Generation Solution (EGS). There is no specific 
+format prescribed for Phase 1 Tax Invoices (such as XML format or PDF/A-3 format). 
+Taxpayers can generate it in any electronic format, however, a paper invoice that is 
+converted into an electronic format through copying, scanning, or any other method is 
+not considered a compliant E-Invoice.
+c. Also, for the Phase 1 (Generation Phase) invoices, there is no specific format prescribed 
+for sharing / presentment to the buyers. Phase 1 invoices can be presented in the any 
+electronic format.
+
+4.1.2. Tax Invoices for Phase 2 (Integration Phase)
+a. For Phase 2 (Integration Phase), the taxpayer must generate a Tax Invoice including 
+additional data fields prescribed in the Annex 2 of E-Invoicing Resolution in an electronic 
+format using a compliant E-Invoice Generation Solution (EGS) which is Onboarded (click 
+here for detailed technical guideline which defines the onboarding process). Phase 2 
+(Integration Phase) Tax Invoices must be generated in XML format or a PDF/A-3 (with 
+embedded XML).
+b. Phase 2 (Integration Phase) Tax Invoices must be submitted in XML format (not 
+PDF/A-3) to FATOORA Platform for “Clearance” using APIs. FATOORA Platform will 
+validate whether the Tax Invoice is compliant with XML Implementation Standard 
+and run additional referential checks. Once the Tax Invoice pass validation checks, 
+FATOORA Platform will “Clear” the Tax Invoice by including a Cryptographic Stamp 
+and a QR Code to the XML. The “Cleared” XML will be sent back to the taxpayer using 
+APIs. Further details are provided in Section 7 of this guideline.
+c. Phase 2 (Integration Phase) invoices must be shared / presentment to the buyers in 
+XML or PDF/A-3 (with embedded XML) format.
+Tax Invoices contain fields as per VAT legislations including the seller and buyer information, 
+transaction and goods/services details in addition to other technical fields that are to be 
+generated by the electronic invoicing solution. Sample images of the human readable 
+format of the Tax Invoice are included in Section 4.6 of this guideline. Samples must be 
+different for Phase 1 and Phase 2.
+
+Example:
+Al Salam Supplies Co. LTD is, a registered taxpayer in Riyadh. Al Kawther Markets, a 
+registered taxpayer, contracts Al Salam for providing their stores with goods. Once the 
+items have been delivered, Al Salam issued an electronic invoice through their invoicing 
+solution. The technical fields of the invoice are automatically generated by the solution, 
+where Al Salam only inserts information about Al Kawther and their details, goods sold, and 
+the total value and VAT value of the transaction. Al Salam archives a copy of the Tax Invoice 
+in their records on a system according to the provisions in VAT Law, VAT Implementing 
+Regulation, E-Invoicing Regulation and resolutions and all other relevant Laws in KSA.
+Example:
+Capital National Bank, a registered bank in KSA provided Al Amaal Company with a 
+corporate loan to finance the company’s operations. The bank issued a Tax Invoice 
+containing two items, bank commission with an amount of SAR 6,250.00 and loan’s Profit 
+Element with an amount of SAR 50,000.00. The bank commission is subjected to VAT 
+with a rate of 15%. The loan Profit Element will be exempt from VAT, the Bank should 
+issue a Tax Invoice for the taxable supplies from the E-Invoice Solution used by the bank 
+and if the bank decided to issue one invoice for both the taxable and exempt supplies then 
+this invoice should meet the requirements of the Tax Invoices.
+
+4.2. Simplified Tax Invoice
+4.2.1. Simplified Tax Invoices for Phase 1 (Generation Phase)
+a. A Simplified Tax invoice is an invoice issued mostly for B2C transactions with fields 
+defined in Article 53 (8), VAT Implementing Regulations and Annex 2 of E Invoicing 
+Resolution. The fields required for Generation Phase and Integration Phase to be 
+included within the Simplified Tax Invoice are included in the Annex 2 of the E-Invoicing 
+Resolution.
+b. Also, taxpayers have an option to generate Simplified Tax Invoices for the B2B 
+transaction if the value of Taxable Supplies is less than 1,000 SAR. It must be noted 
+that for Simplified Invoices for B2C transaction can be generated for any value (even for 
+transactions where value of Taxable Supplies exceed 1,000 SAR). This limit of 1,000 
+SAR is only applicable when the supplier chooses to issue Simplified Tax Invoice for 
+B2B transactions.
+c. For Phase 1 (Generation Phase), the taxpayer must generate a Simplified Tax Invoice 
+including additional data fields prescribed in the Annex 2 of E-Invoicing Resolution 
+electronically using a compliant E-Invoice Generation Solution (EGS). There is no 
+specific format prescribed for Phase 1 Simplified Tax Invoices (such as XML format or 
+PDF/A-3 format). Taxpayers can generate it in any electronic format, however, a paper 
+invoice that is converted into an electronic format through copying, scanning, or any 
+other method is not considered a compliant E-Invoice generated electronically.
+d. Simplified Tax Invoices that has been generated electronically must be shared / 
+presented to the buyers in a printed copy. Alternatively, such Simplified Tax Invoice or 
+its associated Notes - upon the agreement between the transaction parties - may also 
+be shared with customers in its electronic format or any other human readable format 
+with customers
+
+4.2.2. Simplified Tax Invoices for Phase 2 (Integration Phase)
+a. The taxpayer must generate Simplified Tax Invoice including additional data fields 
+prescribed in the Annex 2 of E-Invoicing Resolution in an electronic format using a 
+compliant E-Invoice Generation Solution (EGS) which is Onboarded. Simplified Tax 
+Invoices must be generated in XML format or a PDF/A-3 (with embedded XML). 
+Taxpayer’s EGS solution must stamp the XML using CSID issued by ZATCA and also 
+include a QR Code which is compliant with Phase 2 requirements (9 tags in TLV base64 
+format).
+b. Once a compliant Simplified Tax Invoice is generated (after stamping and applying 
+QR code), it must be shared / presented to the buyer immediately in a printed copy. 
+Alternatively, such Simplified Tax Invoice or its associated Notes - upon the agreement 
+between the transaction parties - may also be shared with customers in its electronic 
+format or any other human readable format with customers. 
+c. Taxpayers must submit the Simplified Tax Invoices in XML format (not PDF/A-3) to 
+FATOORA Platform for “Reporting” within 24 hours of generation using APIs. FATOORA 
+Platform will validate whether the Tax Invoice is compliant with XML Implementation 
+Standard and run additional referential checks. Once the Simplified Tax Invoice pass 
+validation checks, FATOORA Platform will provide an API response.
+Example:
+Al Salam Supplies Co. LTDs operate 3 stores in KSA with over 12 cash registers. Each cash 
+register generates Simplified Tax Invoices based on each sale to a customer, with a QR Code 
+applied to each invoice. All Simplified Tax Invoices that are generated by the cash registers 
+are then sent to Al Salam company’ central repository and finance management system. 
+Al Salam company archives copies of the E-Invoices in their records on a system according 
+to the provisions in VAT Law, VAT Implementing Regulation, E-Invoicing Regulation and 
+resolutions and all other relevant Laws in KSA. On 1st of January 2023 (according to the 
+phases and targeted groups of the integration), Al Salam company must report all invoices 
+issued within 24 hours from the time of issuance
+
+Example:
+A Saudi citizen bought three items from Alwaha Pharmacy online store. Two items are 
+standard rated items with a VAT rate of 15% and the third item is zero rated since it›s 
+classified as medical goods according to the VAT law and regulations. Once the payment 
+has been made, the pharmacy issues a Simplified Tax Invoice through the pharmacy 
+application containing details on the items that the customer purchased and sends the 
+invoice to the customer’s registered email address.
+Example:
+Al Jouf Business School, a private university in KSA, issued a Simplified Tax Invoice for 
+term tuition to a female Saudi citizen. Since this is a private education service subject to the 
+standard tax rate, an invoice should be issued to the Saudi Citizen. This service is subject to 
+a special treatment which is considered as a “Zero Rated›› invoice as regulated by ZATCA, 
+the Saudi government will cover the VAT on behalf of the citizen. Therefore, the citizen 
+will not be charged VAT. 
+4.3. Credit and Debit Notes
+Electronic Credit / Debit notes are issued for a Tax Invoices / Simplified Tax Invoices (after 
+an e- invoice has been issued), wherein the transaction is adjusted subject to Article 40 (1) 
+and Article 54(3) of VAT Implementing Regulations. 
+Credit and Debit notes must be issued with a reference to the original invoice(s) to which 
+they are issued. The reference fields can be used to indicate the Invoice Reference 
+Number(s) of Original Invoice(s) to which Credit Note pertains. In case, a single Credit 
+Note relates to multiple Original Invoices, then taxpayers can provide Invoice Reference 
+Numbers as a range (for example IRN from 001 to IRN 100 issued during the period 1 Jan 
+2022 to 31 March 2022). The type of credit/debit note follows the type of invoice that they 
+are issued against
+
+Example:
+Data Extract Consulting company purchases several office furniture items from Zamil 
+Furniture Group. After they have been invoiced by Zamil, Data Extract wishes to return 
+several items that were defective. Zamil issues a credit note in order to refund the amount 
+paid, and the information is the same as the information contained in the Tax Invoice that was 
+issued for the sale. The credit note contains the Invoice Reference Number of the original 
+invoice. Data Extract archives a copy of the note in their records on a system according 
+to the provisions in VAT Law, VAT Implementing Regulation, E-Invoicing Regulation and 
+resolutions and all other relevant Laws in KSA.
+4.4. Sample visual examples of E- invoices
+Each type of E-Invoice and associated note may be presented in human readable form. 
+The fields required to be visible on such a representation are indicated in the E-Invoicing 
+Resolution in Annex (2). This section contains examples of fully compliant visualized 
+E-Invoices that contain the fields required starting 1st January 2023 (in waves by targeted 
+taxpayer groups).
+
+5.2. Timelines
+Taxable persons subject to E-Invoice Regulation are obliged to generate Electronic Invoices 
+and Electronic Notes starting from 4th of December 2021.
+The second set of requirements for E-Invoice generation are required starting from 1st 
+January 2023 (in waves by targeted taxpayer groups) as part of the Integration Phase.
+5.3. Technical Requirements
+● All E-Invoice Solutions must be able to connect to the internet in order to share invoices 
+with the Authority. 
+● The E-Invoice Solutions must be able to connect with an API published by the Authority 
+in order to share invoices. Specific integration requirements are published on the 
+Authority’s website, and E-Invoice Solution vendors will have enough time to update 
+their products and services.
+● The E-Invoice Solutions must have tamper-proofing mechanisms that prevent any 
+modification or tampering with invoices or the solution itself, and must be able to record 
+and detect any tampering attempts.
+
+5.4. Information Security
+● Persons subject to the E-Invoicing Regulation must ensure that their Compliant 
+E-Invoice Solutions must be tamper-resistant and include a mechanism which prevents 
+tampering and reveals tampering attempts that might occur.
+1. These solutions contain functionalities that prohibit users from directly changing 
+the solution and invoice generation.
+2. The anti-tampering mechanisms include:
+Prevention of invoice counter reset:
+Resetting the invoice counter should not be a function available in an E-Invoice 
+Solution and access to the counter value should be protected from system users.
+Prevention of date changes:
+Resetting the system date should be inaccessible to system users.
+Prevention of deletion or modification of invoices:
+Users of the E-Invoice Solution should not have the ability to delete or change 
+E-Invoice and associated Note XML documents stored on by the solution. The 
+solution should be equipped with sufficient memory to store the E-Invoice and 
+associated Note XML documents generated by it.
+Prevention of uncontrolled access:
+Access to E-Invoice Solution functions must always be via a logged in user who is 
+granted access only to functions that are necessary to perform their role
+
+● As per VAT Implementing Regulations, if the data is hosted on the cloud, it must be 
+accessible through a direct link that can be made available to the Authority. This 
+requirement is mandatory for audit purposes as per VAT Implementing Regulations
+● The system must allow Persons subject to the E-Invoicing Regulation to export and 
+save their invoices onto an external archival system
+● Each stored invoice must follow a naming convention for naming of the file: VAT 
+Registration (tax registration number) + Timestamp (date and time at the point of 
+invoice generation) + Invoice Reference Number
+● Taxpayer’s E-Invoice Solutions may reside on the cloud in accordance with VAT 
+Implementing Regulation, however additional non-tax-related regulations may apply 
+to the taxpayer entity, such as National Cybersecurity Authority published laws and 
+any other applicable regulations or controls 
+Prevention of export of stamping keys:
+The cryptographic stamp identifier is associated with a unique private key that 
+should be generated by the solution, so that it may not be viewed or copied during 
+system initialization. Export of the key would enable theft of the E-Invoice Solution’s 
+identity, and so should be blocked by the solution vendor using a software or 
+hardware key vault.
+● The Compliant Solution must be able to protect the generated Electronic Invoices 
+and Electronic Notes from any alteration or undetected deletion and contain some 
+functionalities which enable the taxable person to save Electronic Invoices and 
+Electronic Notes and archive them in XML format without Internet connection.
+1. Once invoices are generated, they should not be deleted or altered by any user
+2. The solution will also allow Persons subject to the E-Invoicing Regulation to store 
+the invoices once they are generated in a safe and secure manner to avoid leakage 
+or loss of information
+
+5.5. Data Storage and Archival
+Persons subject to the E-Invoicing Regulation may store their electronic invoices in a server 
+on-premises in the KSA or in the cloud as per their solution requirements and storage 
+requirements and according to the provisions in VAT Law, VAT Implementing Regulation, 
+E-Invoicing Regulation and Resolutions and all other relevant Laws in KSA

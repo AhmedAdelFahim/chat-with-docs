@@ -1,0 +1,101 @@
+.chat_container {
+  padding: .5rem;
+  border: .1rem black solid;
+  border-radius: .5%;
+  -webkit-border-radius: .5%;
+  -moz-border-radius: .5%;
+  -ms-border-radius: .5%;
+  -o-border-radius: .5%;
+  margin: 0.5rem;
+  height: 98%;
+  width: 70%;
+}
+
+.chat_settings {
+  padding: .5rem;
+  border: .1rem black solid;
+  border-radius: .5%;
+  -webkit-border-radius: .5%;
+  -moz-border-radius: .5%;
+  -ms-border-radius: .5%;
+  -o-border-radius: .5%;
+  margin: 0.5rem;
+  width: 30%;
+}
+
+.chat_content {
+  padding: .5rem;
+  border: .1rem black solid;
+  border-radius: .5%;
+  -webkit-border-radius: .5%;
+  -moz-border-radius: .5%;
+  -ms-border-radius: .5%;
+  -o-border-radius: .5%;
+  height: 88%;
+  overflow-y: scroll;
+}
+
+.ai_message_container {
+  display: flex;
+  padding: 0.2rem;
+  flex-direction: column;
+  width: 100%;
+  align-items: start;
+}
+
+.user_message_container {
+  display: flex;
+  padding: 0.2rem;
+  flex-direction: column;
+  width: 100%;
+  align-items: end;
+}
+
+.ai_message {
+  /*border: .1rem black solid;
+  */border-radius: 10px !important;
+  color: white;
+  background-color: gray;
+  padding: 0.3rem;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+  white-space: pre-wrap;
+  width: 55%;
+}
+
+.user_message {
+  /*border: .1rem black solid;
+  */border-radius: 10px !important;
+  color: white;
+  background-color: black;
+  padding: 0.3rem;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+  white-space: pre-wrap;
+  width: 55%;
+}
+
+.chat_controller_container {
+  display: flex;
+  flex-direction: row;
+  padding: 0.3rem;
+  height: 12%;
+  justify-content: space-between;
+}
+
+.chat_controller_text_input {
+  height: 100%;
+  width: 92%;
+}
+
+.chat_controller_buttons {
+  padding: .4rem;
+  display: flex;
+  flex-direction: column;
+  width: 8%;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,7 @@
+openai-whisper~=20231117
+gTTS~=2.5.3
+nltk~=3.9.1
+langchain-core~=0.2.38
+langchain-community~=0.2.16
+fastapi~=0.112.2
+langchain-text-splitters~=0.2.4
